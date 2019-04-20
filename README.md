@@ -7,7 +7,7 @@ _1. Open the Windows (Or other OS) command line, and change the directory with a
 _2. In the Windows command line, create the database you would like to run my SQL commands on. If you were calling this database "Assignment", you would run:_
 ```mysql -u<user> -p<password> -h127.0.0.1 -e "CREATE DATABASE Assignment"```
 
-_3. In the Windows command line, copy the data in my .SQL file into your new database by typing the following command, but replacing the filepath at the end with the location of the .SQL file you downloaded from here. In my case, this was:_
+_3. In the Windows command line, copy the data in this .SQL file into your new database by typing the following command, but replacing the filepath at the end with the location of the .SQL file you downloaded from here. In my case, this was:_
 ```mysql -u<user> -p<password> -h127.0.0.1 --database=Assignment < C:\Users\Ryan\Desktop\Assignment1.sql```
                                                       
 ____________________________________________________________________________________________________________________________                                                     

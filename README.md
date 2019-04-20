@@ -8,7 +8,8 @@ _2. In the Windows command line, create the database you would like to run my SQ
 
 _3. In the Windows command line, copy the data in my .SQL file into your new database by typing the following command, but replacing the filepath at the end with the location of the .SQL file you downloaded from here. In my case, this was:_
 ```mysql -u<user> -p<password> -h127.0.0.1 --database=Assignment < C:\Users\Ryan\Desktop\Assignment1.sql```
-                                                                                                       
-Having followed these steps, you should now have a fully complete example of the Paper Review database described in the posted assignment guidelines page. Open your MySQL terminal and change the active database to the one you copied this script into. There should be multiple sample entries and 5 tables imported by this operation.
+                                                         
+                                                         
+**Having followed these steps, you should now have a fully complete example of the Paper Review database described in the posted assignment guidelines page.** Open your MySQL terminal and change the active database to the one you copied this script into. There should be multiple sample entries and 5 tables imported by this operation.
 
 The database implements the Paper Review system described in question 3.34 in the class book. The diagram of this database which was created for a previous assignment was a great help in understanding the necessary commands to build the database. The diagram I created, as well as the question this is based on, can be found here: https://imgur.com/a/sCIc8Np

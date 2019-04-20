@@ -1,12 +1,12 @@
-To use this script to regenerate the SQL Database I have created, please follow these steps:
+_**To use this script to regenerate the SQL Database I have created, please follow these steps:**_
 
-1. Open the Windows (Or other OS) command line, and change the directory with a "cd" command to the location of your machine's MySQL.exe file. In my case, this command was: 
+_1. Open the Windows (Or other OS) command line, and change the directory with a "cd" command to the location of your machine's MySQL.exe file. In my case, this command was:_ 
   cd C:\Program Files\MySQL\MySQL Server 8.0\bin
 
-2. In the Windows command line, create the database you would like to run my SQL commands on. If you were calling this database "Assignment", you would run: 
+_2. In the Windows command line, create the database you would like to run my SQL commands on. If you were calling this database "Assignment", you would run:_
   mysql -u<user> -p<password> -h127.0.0.1 -e "CREATE DATABASE Assignment"
 
-3. In the Windows command line, copy the data in my .SQL file into your new database by typing the following command, but replacing the filepath at the end with the location of the .SQL file you downloaded from here. In my case, this was:
+_3. In the Windows command line, copy the data in my .SQL file into your new database by typing the following command, but replacing the filepath at the end with the location of the .SQL file you downloaded from here. In my case, this was:_
   mysql -u<user> -p<password> -h127.0.0.1 --database=Assignment < C:\Users\Ryan\Desktop\Assignment1.sql
                                                                                                        
 Having followed these steps, you should now have a fully complete example of the Paper Review database described in the posted assignment guidelines page. Open your MySQL terminal and change the active database to the one you copied this script into. There should be multiple sample entries and 5 tables imported by this operation.
